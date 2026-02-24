@@ -1,15 +1,43 @@
-# Maven
+# C / C++
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Makefile
+
+# Java / Maven
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.iml
+*.user
+*.suo
+
+# Logs
 
 *.log
 
-.vscode/
-
+# OS
 .DS_Store
-
-*.class
+Thumbs.db
