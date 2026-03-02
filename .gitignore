@@ -28,6 +28,7 @@ __pycache__/
 *.pyo
 *.pyd
 .ipynb_checkpoints/
+*.csv
 
 # IDE
 .idea/
